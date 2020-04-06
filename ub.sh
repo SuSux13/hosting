@@ -15,4 +15,11 @@ sudo apt install python3
  composer -V
  git clone https://github.com/heroku/php-getting-started.git
  cd php-getting-started
- 
+ sudo dnf install dh-autoreconf curl-devel expat-devel gettext-devel \
+  openssl-devel perl-devel zlib-devel
+  sudo apt-get install dh-autoreconf libcurl4-gnutls-dev libexpat1-dev \
+  gettext libz-dev libssl-dev
+  sudo dnf install asciidoc xmlto docbook2X
+  sudo apt-get install asciidoc xmlto docbook2x
+  sudo apt-get install install-info
+ sudo dnf install getopt
